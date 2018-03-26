@@ -1,24 +1,1652 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WXF-fS-p11">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="MalayalamSangamMN.ttc">
+            <string>MalayalamSangamMN-Bold</string>
+        </array>
+        <array key="Noteworthy.ttc">
+            <string>Noteworthy-Bold</string>
+            <string>Noteworthy-Light</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--1-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="1" customClass="ViewController" customModule="class2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pooh" translatesAutoresizingMaskIntoConstraints="NO" id="KkH-Ht-fxg">
+                                <rect key="frame" x="14" y="64" width="110" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tigger" translatesAutoresizingMaskIntoConstraints="NO" id="enx-Us-6sq">
+                                <rect key="frame" x="132" y="64" width="110" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.69969284409037003" blue="0.04223505045619147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="piglet" translatesAutoresizingMaskIntoConstraints="NO" id="omY-Rv-Re6">
+                                <rect key="frame" x="250" y="64" width="110" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="roo2" translatesAutoresizingMaskIntoConstraints="NO" id="lsc-Vl-d6r">
+                                <rect key="frame" x="14" y="250" width="110" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eeyore-butterfly2" translatesAutoresizingMaskIntoConstraints="NO" id="PIY-LT-6DB">
+                                <rect key="frame" x="132" y="250" width="110" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.89529666029999999" green="0.90418781729999997" blue="0.52152337510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="owl-book" translatesAutoresizingMaskIntoConstraints="NO" id="hf0-Jd-QKj">
+                                <rect key="frame" x="250" y="250" width="110" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40350424730000001" green="0.67092962850000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XOD-XC-tKr">
+                                <rect key="frame" x="250" y="250" width="109" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="9AQ-OV-es4" kind="show" id="S9W-zu-6Dq"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kanga" translatesAutoresizingMaskIntoConstraints="NO" id="Msw-jr-3b8">
+                                <rect key="frame" x="14" y="436" width="110" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92110439674778088" green="0.85076758361407201" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CIm-bV-5kn">
+                                <rect key="frame" x="14" y="436" width="109" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="YyC-AK-E03" kind="show" id="CpO-pv-j49"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rabbit" translatesAutoresizingMaskIntoConstraints="NO" id="kWK-m5-hhP">
+                                <rect key="frame" x="132" y="436" width="110" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.56220243789438029" green="1" blue="0.79556568562874908" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Christopher Robin" translatesAutoresizingMaskIntoConstraints="NO" id="d5P-eH-dg5">
+                                <rect key="frame" x="250" y="436" width="110" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oge-2l-08V">
+                                <rect key="frame" x="13" y="176" width="112" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
+                                <state key="normal" title="Winnie the Pooh">
+                                    <color key="titleColor" red="0.57487309644670048" green="0.51666253193397971" blue="0.04609515979618159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="CVX-aL-o4u" kind="show" id="eww-mT-Q8c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nxd-5B-D9r">
+                                <rect key="frame" x="132" y="177" width="110" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
+                                <state key="normal" title="Tigger">
+                                    <color key="titleColor" red="0.57487309644670048" green="0.37983157060873257" blue="0.19992212673789111" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Agn-FM-uRw" kind="show" id="xr0-M3-oBJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Rs-7x-e4P">
+                                <rect key="frame" x="250" y="177" width="110" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
+                                <state key="normal" title="Piglet">
+                                    <color key="titleColor" red="0.55590481950644277" green="0.3965089001964735" blue="0.57487309644670048" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="oCD-MC-78V" kind="show" id="1cM-dx-9rl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mJM-g4-wly">
+                                <rect key="frame" x="14" y="358" width="110" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
+                                <state key="normal" title="Roo">
+                                    <color key="titleColor" red="0.57487309639999995" green="0.21527120581968925" blue="0.035730291184412392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3Kt-Ov-m6c" kind="show" id="lKt-TR-aer"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="erB-NX-7pb">
+                                <rect key="frame" x="132" y="358" width="110" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
+                                <state key="normal" title="Eeyore">
+                                    <color key="titleColor" red="0.060176852874042015" green="0.57487309639999995" blue="0.34074782872094478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="E5A-VN-qF6" kind="show" id="eG4-es-2IY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2pX-vG-x3R">
+                                <rect key="frame" x="249" y="358" width="110" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
+                                <state key="normal" title="Owl">
+                                    <color key="titleColor" red="0.30076327549674331" green="0.38860405573854728" blue="0.57487309639999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9AQ-OV-es4" kind="show" id="INz-Rc-qV0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lWJ-kB-JSg">
+                                <rect key="frame" x="14" y="546" width="110" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
+                                <state key="normal" title="Kanga">
+                                    <color key="titleColor" red="0.57487309639999995" green="0.34566891360470636" blue="0.55496274426231984" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YyC-AK-E03" kind="show" id="fuc-Bp-CWu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6TH-3Q-540">
+                                <rect key="frame" x="132" y="546" width="110" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
+                                <state key="normal" title="Rabbit">
+                                    <color key="titleColor" red="0.42828007869136603" green="0.56736413738586255" blue="0.57487309639999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="TRo-Sy-Dto" kind="show" id="tP5-MZ-yFj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="seU-ma-vaL">
+                                <rect key="frame" x="239" y="546" width="132" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
+                                <state key="normal" title="Christopher Robin">
+                                    <color key="titleColor" red="0.30076327549999998" green="0.38860405570000001" blue="0.57487309639999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lEp-vm-o2x" kind="show" id="hgs-zL-Vmt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nG0-2Y-wYI">
+                                <rect key="frame" x="250" y="436" width="109" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="lEp-vm-o2x" kind="show" id="pIG-bS-qUb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YKp-9b-4Lb">
+                                <rect key="frame" x="14" y="64" width="109" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="CVX-aL-o4u" kind="show" id="lxB-71-Yud"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sCI-PN-yZm">
+                                <rect key="frame" x="131" y="64" width="109" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="Agn-FM-uRw" kind="show" id="tBH-cu-BoI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X1P-lY-KFI">
+                                <rect key="frame" x="250" y="64" width="109" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="oCD-MC-78V" kind="show" id="em9-Hk-MIj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mU0-hJ-GCK">
+                                <rect key="frame" x="14" y="250" width="109" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="3Kt-Ov-m6c" kind="show" id="7RK-7r-qiM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3xh-DF-a7w">
+                                <rect key="frame" x="132" y="250" width="109" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="E5A-VN-qF6" kind="show" id="Vdu-lB-hQO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ys-II-eHZ">
+                                <rect key="frame" x="131" y="436" width="109" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="TRo-Sy-Dto" kind="show" id="aU0-EB-pms"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96011239290237427" green="0.92234569787979126" blue="0.8482481837272644" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" title="人物總覽" id="ssa-wt-uy5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="694" y="-125"/>
+        </scene>
+        <!--Winnie the Pooh-->
+        <scene sceneID="PXr-yT-VtX">
+            <objects>
+                <viewController id="CVX-aL-o4u" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dYO-fQ-DQm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bBg-Kh-Rrs">
+                                <rect key="frame" x="16" y="342" width="343" height="264"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">中文： 小熊维尼  
+英文：Pooh  
+出生日期： 1925年12月24日 身高：55公分  體重：以棕熊的身高體重做換算，小熊維尼的體重可能介於65~75之間。 最好的朋友：小豬 (piglet)
+最喜歡的食物：蜂蜜...再多一點蜂蜜
+興趣：和小豬及克理斯多夫羅賓去冒險，早上作體操，尋找蜜蜂，及哼歌 口頭禪：Think, think, think...</string>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN-Bold" family="Malayalam Sangam MN" pointSize="20"/>
+                                <color key="textColor" red="0.53247937820000002" green="0.31175020320000002" blue="0.0038782325480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.53247937817258884" green="0.31175020315571061" blue="0.0038782325482889794" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pooh" translatesAutoresizingMaskIntoConstraints="NO" id="YzI-zk-gey">
+                                <rect key="frame" x="87" y="74" width="200" height="260"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KMw-h2-OaV">
+                                <rect key="frame" x="87" y="74" width="200" height="260"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="gDp-mg-cgy" kind="show" id="gNz-q1-J6Z"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.9994240403175354" green="0.99603685813629916" blue="0.62426016767017367" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="jnz-uN-VHX"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Winnie the Pooh" id="krp-V8-mEE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pbd-GS-aRB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1400.8" y="-123.68815592203899"/>
+        </scene>
+        <!--Tigger-->
+        <scene sceneID="XF3-AW-dLm">
+            <objects>
+                <viewController id="Agn-FM-uRw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GmF-gh-OMY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tigger" translatesAutoresizingMaskIntoConstraints="NO" id="iEx-Q2-jht">
+                                <rect key="frame" x="67" y="76" width="240" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEE-dK-eQ5">
+                                <rect key="frame" x="16" y="334" width="343" height="249"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">中文：跳跳虎 英文：Tigger
+最好的朋友：Roo小豆
+最喜歡的食物：非常挑食，只挑麥芽的精華來吃
+興趣：跳.跳.跳...玩偵探遊戲
+其他才能：從不會迷路，會用自己的腳印來找回家的路
+口頭禪："Hello, I'm Tigger. Hoo hoo hoo hewooo.", "T-T-F-N, Ta Ta For Now!"</string>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN-Bold" family="Malayalam Sangam MN" pointSize="20"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.53247937820000002" green="0.31175020320000002" blue="0.0038782325480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJw-Ee-kSc">
+                                <rect key="frame" x="67" y="76" width="240" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="KVu-z2-Sle" kind="show" id="J29-2q-1ep"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Fis-9A-hRZ"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tigger" id="WRk-Xq-vAN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PDb-kM-gp9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1400.8" y="-797.45127436281871"/>
+        </scene>
+        <!--Character-->
+        <scene sceneID="Nmf-3Y-ush">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cGn-hf-mfc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Character" id="omn-YS-uXM"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cu5-2P-Pny">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.89529666026755017" green="0.90418781725888331" blue="0.52152337512054769" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="SpH-TA-C3q"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nsU-QH-u9S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="44" y="-124.58770614692655"/>
+        </scene>
+        <!--作者簡介-->
+        <scene sceneID="DXM-a9-32A">
+            <objects>
+                <viewController id="pll-he-p1b" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e0Q-ku-YD7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gallery-1499328096-gettyimages-84037644" translatesAutoresizingMaskIntoConstraints="NO" id="dHT-2j-EqN">
+                                <rect key="frame" x="16" y="77" width="343" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" 《Winnie the Pooh》  從前從前，有個小男孩和他的小熊在百畝森林裡......" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GmM-oG-Nek">
+                                <rect key="frame" x="16" y="342" width="343" height="197"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fpg-XX-RSS">
+                                <rect key="frame" x="16" y="77" width="343" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="dxe-3X-7b2" kind="show" id="BgW-hu-wUe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="jFZ-u6-zla"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="作者簡介" id="bBL-Qb-exZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xqf-Yc-zX5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="752.79999999999995" y="644.52773613193403"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="A2N-59-mwA">
+            <objects>
+                <viewController id="dxe-3X-7b2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zRD-wl-eu6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="作者與太太" translatesAutoresizingMaskIntoConstraints="NO" id="nDf-Gq-xBh">
+                                <rect key="frame" x="19" y="64" width="343" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A. A. Milne和他的妻子Daphne Milne" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vme-h6-8lm">
+                                <rect key="frame" x="19" y="311" width="186" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.99942404029999998" green="0.99603685809999998" blue="0.62426016770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zPo-HN-E3K">
+                                <rect key="frame" x="13" y="369" width="349" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">英國作家A. A. Milne在成為一名兒童文學作家前也創作許多不同類型的作品。在就讀劍橋大學三一學院時，他主編過學生雜誌《Granta》。畢業後還曾為英國幽默雜誌《Punch》寫過詩歌、散文，在1906年擔任了助理編輯。這段期間他創作18部戲劇和3部小說，其中包含推理小說《紅屋之謎》。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3D-KN-SVn">
+                                <rect key="frame" x="19" y="64" width="343" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="Yan-Gq-v1i" kind="show" id="XrS-Vu-YXr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="hC1-dK-lyH"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OeU-wb-kpG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1464.8" y="644.52773613193403"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8cL-s1-Hwy">
+            <objects>
+                <viewController id="NFT-sF-mrT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kmM-PK-bsh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A day without a friend is like a pot without a single drop of honey left inside." translatesAutoresizingMaskIntoConstraints="NO" id="Agx-Fk-36Z">
+                                <rect key="frame" x="6" y="72" width="207" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="How lucky I am to have something that makes saying goodbye so hard." translatesAutoresizingMaskIntoConstraints="NO" id="3hZ-Fd-BRO">
+                                <rect key="frame" x="221" y="64" width="118" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Love is taking a few steps backward maybe even more… to give way to the happiness of the person you love." translatesAutoresizingMaskIntoConstraints="NO" id="de5-c4-5Eb">
+                                <rect key="frame" x="23" y="341" width="141" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Df-Wu-dQH">
+                                <rect key="frame" x="23" y="341" width="113" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="6F3-7f-VxG" kind="show" id="sjZ-j1-ECb"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="how to spell love" translatesAutoresizingMaskIntoConstraints="NO" id="Rmt-W7-O17">
+                                <rect key="frame" x="177" y="186" width="188" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfr-Bk-pj6">
+                                <rect key="frame" x="177" y="186" width="188" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="maN-Xz-jes" kind="show" id="ZvW-3n-ER6"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="If you live to be a hundred, I want to live to be a hundred minus one day so I never have to live without you." translatesAutoresizingMaskIntoConstraints="NO" id="1LA-QC-8h6">
+                                <rect key="frame" x="132" y="269" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctp-Wj-pEv">
+                                <rect key="frame" x="144" y="269" width="228" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="TB4-hq-Qun" kind="show" id="A7z-ZN-YI1"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="If there ever comes a day when we can’t be together" translatesAutoresizingMaskIntoConstraints="NO" id="FCS-UN-Hhn">
+                                <rect key="frame" x="16" y="208" width="127" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SAj-Rx-Aov">
+                                <rect key="frame" x="16" y="208" width="127" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="Liy-cc-HVH" kind="show" id="pQO-Wd-yOS"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sometimes the smallest things take the most room in your heart." translatesAutoresizingMaskIntoConstraints="NO" id="BHZ-pX-S33">
+                                <rect key="frame" x="203" y="383" width="162" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HOd-3L-OS9">
+                                <rect key="frame" x="203" y="383" width="162" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="tJk-ID-ok3" kind="show" id="bTJ-NF-gsA"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Some people care too much. I think its called love." translatesAutoresizingMaskIntoConstraints="NO" id="jcC-PV-1SV">
+                                <rect key="frame" x="6" y="481" width="175" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="You cant stay in your corner of the Forest waiting for others to come to you." translatesAutoresizingMaskIntoConstraints="NO" id="4MF-2i-yze">
+                                <rect key="frame" x="189" y="507" width="176" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M7g-0X-Ev4">
+                                <rect key="frame" x="189" y="507" width="176" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="5li-5m-PGs" kind="show" id="hvC-CN-hJY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZh-uj-drS">
+                                <rect key="frame" x="6" y="72" width="175" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="e01-XW-5P9" kind="show" id="wY7-MU-RKD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NEB-F7-Qn6">
+                                <rect key="frame" x="221" y="64" width="118" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="KbY-VB-teu" kind="show" id="T6J-QL-8H8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gff-nu-K53">
+                                <rect key="frame" x="6" y="481" width="175" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="394-ef-auA" kind="show" id="kKF-AX-yRJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.40560937730408531" blue="0.30539096681039424" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="sHi-6Z-19H"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lxl-cX-09G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1465" y="1415"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WJH-dk-3V2">
+            <objects>
+                <viewController id="e01-XW-5P9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MvE-vm-BIv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8lm-cP-k9b">
+                                <rect key="frame" x="19" y="238" width="337" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">“A day without a friend is like a pot without a single drop of honey left inside.”
+
+沒有朋友的一天，就像是沒了蜂蜜的蜂蜜罐一樣。</string>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
+                                <color key="textColor" red="0.30076327549999998" green="0.38860405570000001" blue="0.57487309639999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.83227363083790273" blue="0.67179272722242289" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="1j8-cF-iWz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p3Z-fE-eOy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2136.8000000000002" y="1414.5427286356824"/>
+        </scene>
+        <!--經典語錄-->
+        <scene sceneID="wvd-co-JdH">
+            <objects>
+                <viewController id="Pol-Dh-bQa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HZt-FJ-IMN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4q-Gb-9BK">
+                                <rect key="frame" x="276" y="577" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next page...">
+                                    <color key="titleColor" red="0.80676336239831814" green="0.95373036048736126" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="NFT-sF-mrT" kind="show" id="e5w-7A-SLt"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="羅賓與維尼" translatesAutoresizingMaskIntoConstraints="NO" id="Tz4-AT-Vjg">
+                                <rect key="frame" x="0.0" y="64" width="375" height="267"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="雖然繪本中最主要的目的是給小朋友看，但其實，裡頭許多的看似簡單的句子，長大後再看又多了另一層的含意。  有網站就整理出了小熊維尼中出現的八大經典語錄，快看看是哪些句子教會我們的體認生命中的小事吧。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SY5-cm-1tt">
+                                <rect key="frame" x="16" y="381" width="343" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.35731720059760985" blue="0.19334276144579388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="McR-B5-9Df"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="經典語錄" id="kRP-8M-Hi8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="apF-fT-Cqt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="752.79999999999995" y="1414.5427286356824"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="x5p-07-h8p">
+            <objects>
+                <viewController id="WXF-fS-p11" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YVS-BR-hdI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="待機畫面" translatesAutoresizingMaskIntoConstraints="NO" id="gmx-bt-ncq">
+                                <rect key="frame" x="0.0" y="183" width="375" height="233"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFC-mY-Cpv">
+                                <rect key="frame" x="137" y="424" width="101" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="30"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="0.18656178778755042" green="0.38749953534630727" blue="0.97767180200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="j86-Hk-Mvd" kind="show" id="Z18-Qc-Kn7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="6Z5-Mp-Wab"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y7m-9F-0ZZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1607.2" y="644.52773613193403"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="XXI-AC-pHd">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="j86-Hk-Mvd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oxr-WC-Ke0">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="cGn-hf-mfc" kind="relationship" relationship="viewControllers" id="XQ4-TM-h4l"/>
+                        <segue destination="hvS-kN-VrN" kind="relationship" relationship="viewControllers" id="QMP-HT-3Y0"/>
+                        <segue destination="XKJ-vb-OMu" kind="relationship" relationship="viewControllers" id="csc-eh-atb"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vFU-B8-NUH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-839" y="645"/>
+        </scene>
+        <!--About the author-->
+        <scene sceneID="9if-bI-KRp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XKJ-vb-OMu" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="About the author" id="FaB-NF-C2O"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LSy-HK-tq3">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="pll-he-p1b" kind="relationship" relationship="rootViewController" id="rNa-zZ-VzJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9ln-PK-Ngc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="44" y="645"/>
+        </scene>
+        <!--Classic quotes-->
+        <scene sceneID="BPX-QY-paV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hvS-kN-VrN" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Classic quotes" id="bSL-hX-OPJ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HFX-yk-Cn3">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Pol-Dh-bQa" kind="relationship" relationship="rootViewController" id="Jn6-cu-hRP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="REz-gd-V0Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="44" y="1415"/>
+        </scene>
+        <!--Piglet -->
+        <scene sceneID="d8i-Np-b5t">
+            <objects>
+                <viewController id="oCD-MC-78V" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wN8-2w-o2Y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="piglet_去背" translatesAutoresizingMaskIntoConstraints="NO" id="pTW-tU-8CD">
+                                <rect key="frame" x="57" y="93" width="240" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kAA-OZ-tBJ">
+                                <rect key="frame" x="16" y="341" width="343" height="264"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">中文： 小豬
+英文：Piglet 
+身高：十分嬌小，只有10吋高
+最好的朋友：小熊維尼
+最喜歡的食物：乾玉米
+興趣：和維尼一冒險，玩氣球,吹散蒲公英
+早晨第一句話：「今天會有什麼有趣的事發生呢？」
+口頭禪："Oh, dear! Oh, dear, oh, dearie, dearie, dear!"</string>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN-Bold" family="Malayalam Sangam MN" pointSize="20"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.53247937820000002" green="0.31175020320000002" blue="0.0038782325480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6jh-69-gwd">
+                                <rect key="frame" x="57" y="93" width="240" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="7ee-a5-Hz9" kind="show" id="aXE-v5-rDH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97767180200000003" green="0.92650085689999995" blue="0.95604878660000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="8fm-mN-fqy"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Piglet " id="D2v-8M-pG2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U7h-Vz-EV5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1400.8" y="-1463.1184407796104"/>
+        </scene>
+        <!--2-->
+        <scene sceneID="eQY-9w-sRa">
+            <objects>
+                <viewController id="E5A-VN-qF6" userLabel="2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FBF-rp-Xue">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eeyore-butterfly2" translatesAutoresizingMaskIntoConstraints="NO" id="iKd-EH-Gnx">
+                                <rect key="frame" x="67" y="83" width="240" height="230"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Zd-Tp-OcK">
+                                <rect key="frame" x="16" y="347" width="343" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">中文： 依唷
+英文：Eeyore
+身高：18吋高，27吋長
+最喜歡的食物：thistle（某種植物，多莖)
+最高興的事：別人記得他的生日
+問題：尾巴常常掉落（用圖丁固定著，不太牢固），房子也常倒塌</string>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN-Bold" family="Malayalam Sangam MN" pointSize="20"/>
+                                <color key="textColor" red="0.071704560623000055" green="0.33343908629441621" blue="0.24602936389756069" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.53247937820000002" green="0.31175020320000002" blue="0.0038782325480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n0n-x6-x74">
+                                <rect key="frame" x="67" y="83" width="240" height="230"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="5gS-qZ-plM" kind="show" id="bqR-2V-dut"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.84086507558822632" green="0.93872708082199097" blue="0.71468096971511841" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Q8a-r2-DW1"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Eeyore" id="sHk-8q-WSX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z0A-x2-lfI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1400.8" y="-2795.3523238380812"/>
+        </scene>
+        <!--2-->
+        <scene sceneID="PM1-K2-27I">
+            <objects>
+                <viewController id="3Kt-Ov-m6c" userLabel="2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JCh-uX-MUf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="roo2" translatesAutoresizingMaskIntoConstraints="NO" id="cWz-ue-SFi">
+                                <rect key="frame" x="67" y="100" width="240" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mke-yp-V5z">
+                                <rect key="frame" x="16" y="375" width="343" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">中文： 小荳
+英文：Roo  身高：10吋高
+最好的朋友：跳跳虎
+興趣：和跳跳虎四處玩耍
+最喜歡的食物：最愛喝牛奶，不大挑食但是不喜歡吃跳跳虎的最愛麥芽
+
+</string>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN-Bold" family="Malayalam Sangam MN" pointSize="20"/>
+                                <color key="textColor" red="0.53247937820000002" green="0.31175020320000002" blue="0.0038782325480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.53247937820000002" green="0.31175020320000002" blue="0.0038782325480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="82K-Jd-yKR">
+                                <rect key="frame" x="67" y="100" width="240" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="wHQ-hI-Vl0" kind="show" id="91j-qQ-aDC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93546682596206665" green="0.81957525014877319" blue="0.72543704509735107" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="cD7-yw-YmT"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Roo" id="D1Q-p1-9TQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GKz-3d-fKf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1400.8" y="-2135.0824587706147"/>
+        </scene>
+        <!--2-->
+        <scene sceneID="Fmv-c2-sFU">
+            <objects>
+                <viewController id="9AQ-OV-es4" userLabel="2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kgX-CI-JVQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="owl-book" translatesAutoresizingMaskIntoConstraints="NO" id="uOO-fB-Bov">
+                                <rect key="frame" x="67" y="114" width="240" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gtt-aP-ozN">
+                                <rect key="frame" x="16" y="392" width="343" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">中文： 貓頭鷹
+英文：Owl
+身高：27吋高，若張開翅膀就有42吋高呢
+興趣：跟任何一個人說故事
+問題：令人感到有點無聊</string>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN-Bold" family="Malayalam Sangam MN" pointSize="20"/>
+                                <color key="textColor" red="0.032839905977330226" green="0.15053344973448315" blue="0.33343908630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.53247937820000002" green="0.31175020320000002" blue="0.0038782325480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqP-wR-u2p">
+                                <rect key="frame" x="67" y="114" width="240" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="jYS-57-kqy" kind="show" id="YDZ-C5-2G5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.47820145968846201" green="0.75832172847074564" blue="0.97767180200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="1gx-yf-SEC"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Owl" id="Lz4-KI-Dxl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lNk-38-6Vc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1400.8" y="-3447.5262368815593"/>
+        </scene>
+        <!--2-->
+        <scene sceneID="B8E-ZW-1np">
+            <objects>
+                <viewController id="YyC-AK-E03" userLabel="2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aVs-D0-upL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kanga" translatesAutoresizingMaskIntoConstraints="NO" id="8IV-vd-bbg">
+                                <rect key="frame" x="67" y="131" width="240" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOB-B9-9xr">
+                                <rect key="frame" x="8" y="412" width="359" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">中文： 小荳的媽媽
+英文：Kanga
+身高：30吋高
+興趣：媽媽愛作的事(催小豆洗澡、吃飯)</string>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN-Bold" family="Malayalam Sangam MN" pointSize="20"/>
+                                <color key="textColor" red="0.26364122529389705" green="0.17363526542375704" blue="0.33343908630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.53247937820000002" green="0.31175020320000002" blue="0.0038782325480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7m-c9-abB">
+                                <rect key="frame" x="67" y="131" width="240" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="Tzn-wu-0ym" kind="show" id="kMY-E3-6gK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90249234079869245" green="0.87289920731226212" blue="0.97767180200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="bcK-E9-lr8"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Kanga" id="xkp-k5-3ip"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SHM-ej-sKm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1400.8" y="-4115.8920539730134"/>
+        </scene>
+        <!--2-->
+        <scene sceneID="oDk-kc-FZ8">
+            <objects>
+                <viewController id="TRo-Sy-Dto" userLabel="2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6B0-wo-BdL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rabbit" translatesAutoresizingMaskIntoConstraints="NO" id="YM2-d8-0WS">
+                                <rect key="frame" x="67" y="112" width="240" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otV-3b-uE0">
+                                <rect key="frame" x="16" y="403" width="343" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">中文： 瑞比
+英文：Rabbit
+身高：28吋高
+興趣：種植蔬菜（還得小心維尼在午餐時間的拜訪)
+最喜歡的食物：蔬菜</string>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN-Bold" family="Malayalam Sangam MN" pointSize="20"/>
+                                <color key="textColor" red="0.2636412253" green="0.17363526539999999" blue="0.33343908630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.53247937820000002" green="0.31175020320000002" blue="0.0038782325480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9yv-pQ-ZVd">
+                                <rect key="frame" x="67" y="112" width="240" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="NpN-8d-PU8" kind="show" id="sLM-mC-bH8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.84086507558822632" green="0.93872708082199097" blue="0.71468096971511841" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="vqr-SZ-dwJ"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Rabbit" id="JND-70-3Bh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pHF-jO-oyv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1400.8" y="-4778.8605697151424"/>
+        </scene>
+        <!--2-->
+        <scene sceneID="soH-MQ-Vmi">
+            <objects>
+                <viewController id="lEp-vm-o2x" userLabel="2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pzr-Bh-UBB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Christopher-Robin去背" translatesAutoresizingMaskIntoConstraints="NO" id="MDK-l6-odp">
+                                <rect key="frame" x="67" y="111" width="240" height="210"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rr0-ad-nQD">
+                                <rect key="frame" x="16" y="379" width="343" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">中文： 羅賓
+英文：Christopher Robin
+ 是唯一真正存在的人物，也是百畝森林中所有動物的好朋友，常常為牠們解決難題，羅賓比維尼年長一歲。</string>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN-Bold" family="Malayalam Sangam MN" pointSize="20"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" red="0.53247937820000002" green="0.31175020320000002" blue="0.0038782325480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czN-nH-CEX">
+                                <rect key="frame" x="67" y="111" width="240" height="210"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="ICN-TN-O1Q" kind="show" id="YtU-LG-nVb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.9338075783944445" green="0.92369249131944442" blue="0.89439243082499997" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="oe8-sq-sKP"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Christopher Robin" id="0cK-3C-WTT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ulX-XI-7gv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1400.8" y="-5459.8200899550229"/>
+        </scene>
+        <!--2-->
+        <scene sceneID="KJW-gP-CD5">
+            <objects>
+                <viewController id="ICN-TN-O1Q" userLabel="2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7lc-nj-rGg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rWa-rk-3Lb">
+                                <rect key="frame" x="16" y="364" width="343" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">小熊維尼最好的人類朋友 ── Christopher Robin，就是小熊維尼的作者A. A. Milne的親生兒子。  Christopher Robin Milne在1920年出生，作者A. A. Milne透過兒子與絨毛熊娃娃的互動，創造了舉世聞名的角色 ── 小熊維尼。</string>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN-Bold" family="Malayalam Sangam MN" pointSize="20"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" red="0.53247937820000002" green="0.31175020320000002" blue="0.0038782325480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Christopher Robin Milne與他的熊娃娃" translatesAutoresizingMaskIntoConstraints="NO" id="DMD-CP-xNU">
+                                <rect key="frame" x="45" y="103" width="285" height="210"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93380757839999995" green="0.92369249129999997" blue="0.89439243079999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="PhJ-4o-rKK"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5wq-yq-Sna"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3GH-N5-f39" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2068" y="-5460.7196401799101"/>
+        </scene>
+        <!--2-->
+        <scene sceneID="DqG-NY-keT">
+            <objects>
+                <viewController id="NpN-8d-PU8" userLabel="2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XYu-6o-XpN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pooh-Rabbit去背" translatesAutoresizingMaskIntoConstraints="NO" id="Rk9-U3-1F3">
+                                <rect key="frame" x="12" y="90" width="350" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介  一隻勤勞的兔子，努力地打理牠的紅蘿蔔園，家中儲存著大量食物，急性子，總忍不住把每件事整理好，但有時候都白忙一場..." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Dp-nC-YSB">
+                                <rect key="frame" x="16" y="372" width="343" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN-Bold" family="Malayalam Sangam MN" pointSize="20"/>
+                                <color key="textColor" red="0.2636412253" green="0.17363526539999999" blue="0.33343908630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.53247937820000002" green="0.31175020320000002" blue="0.0038782325480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.84086507558822632" green="0.93872708082199097" blue="0.71468096971511841" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="YaR-Do-k5f"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Rabbit" id="542-As-DUl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CFG-wO-26w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2068" y="-4779"/>
+        </scene>
+        <!--2-->
+        <scene sceneID="CPR-go-TZe">
+            <objects>
+                <viewController id="Tzn-wu-0ym" userLabel="2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5sJ-eG-aCI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kanga-roo3" translatesAutoresizingMaskIntoConstraints="NO" id="pdL-Fu-MLs">
+                                <rect key="frame" x="47" y="164" width="280" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介  小豆的媽媽，常將小豆擺在自己的口袋裡" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8mL-xb-OB4">
+                                <rect key="frame" x="23" y="412" width="328" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN-Bold" family="Malayalam Sangam MN" pointSize="20"/>
+                                <color key="textColor" red="0.2636412253" green="0.17363526539999999" blue="0.33343908630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.53247937820000002" green="0.31175020320000002" blue="0.0038782325480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90249234079999996" green="0.87289920730000004" blue="0.97767180200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="MYT-sH-Vn8"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Kanga" id="s4Z-43-HoE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EXJ-3B-H3i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2068" y="-4116.7916041979015"/>
+        </scene>
+        <!--2-->
+        <scene sceneID="QTl-C6-5u3">
+            <objects>
+                <viewController id="jYS-57-kqy" userLabel="2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="REz-ve-UpX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介  十分喜歡說話，常常滔滔不絕地說個不停，被認為是森林中最聰明的動物，但常常鬧笑話，拼錯字" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pv9-fd-qDE">
+                                <rect key="frame" x="16" y="392" width="343" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN-Bold" family="Malayalam Sangam MN" pointSize="20"/>
+                                <color key="textColor" red="0.03283990598" green="0.15053344969999999" blue="0.33343908630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.53247937820000002" green="0.31175020320000002" blue="0.0038782325480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="owl-notes去背" translatesAutoresizingMaskIntoConstraints="NO" id="mBW-Vs-CiW">
+                                <rect key="frame" x="47" y="104" width="280" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4782014597" green="0.75832172850000001" blue="0.97767180200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="KkP-WS-vPE"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Owl" id="zNf-ud-09q"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UGQ-he-23H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2068" y="-3448"/>
+        </scene>
+        <!--2-->
+        <scene sceneID="p4M-zG-8J5">
+            <objects>
+                <viewController id="5gS-qZ-plM" userLabel="2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SuH-1n-XDy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介  一隻灰色的驢子，非常安靜及憂鬱悲觀，常常都愁眉苦臉，自怨自哎，為一些事而擔心，覺得所有人和事都專門跟他作對，幸好有百畝森林的動物陪他一起歡樂" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SBI-cg-A2S">
+                                <rect key="frame" x="16" y="391" width="343" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN-Bold" family="Malayalam Sangam MN" pointSize="20"/>
+                                <color key="textColor" red="0.071704560619999996" green="0.33343908630000002" blue="0.24602936389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.53247937820000002" green="0.31175020320000002" blue="0.0038782325480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Eeyore去背" translatesAutoresizingMaskIntoConstraints="NO" id="j1i-e2-qWv">
+                                <rect key="frame" x="45" y="105" width="284" height="271"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.84086507558822632" green="0.93872708082199097" blue="0.71468096971511841" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="ZxZ-zd-Fcz"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Eeyore" id="7Qf-SN-EWS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KUR-Fc-Wlr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2068" y="-2795.3523238380812"/>
+        </scene>
+        <!--2-->
+        <scene sceneID="kHO-Um-Lr8">
+            <objects>
+                <viewController id="wHQ-hI-Vl0" userLabel="2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="S8r-si-8oW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介  一隻六歲的調皮小袋鼠，性格活潑開朗，喜歡和大伙一起玩拋樹枝大賽，總覺得自己十分能幹" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3AH-1M-9Uo">
+                                <rect key="frame" x="16" y="375" width="343" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN-Bold" family="Malayalam Sangam MN" pointSize="20"/>
+                                <color key="textColor" red="0.53247937820000002" green="0.31175020320000002" blue="0.0038782325480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.53247937820000002" green="0.31175020320000002" blue="0.0038782325480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tigger_roo_puddles去背" translatesAutoresizingMaskIntoConstraints="NO" id="w5y-Ws-9qx">
+                                <rect key="frame" x="26" y="88" width="323" height="336"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93546682596206665" green="0.81957525014877319" blue="0.72543704509735107" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="sKP-cz-q6B"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Roo" id="cwW-5m-Lkd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BoN-3n-3iS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2068" y="-2135.0824587706147"/>
+        </scene>
+        <!--2-->
+        <scene sceneID="OqM-sg-xZG">
+            <objects>
+                <viewController id="7ee-a5-Hz9" userLabel="2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mRB-kR-0ag">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介  體型相當嬌小，總穿粉紅色黑條紋的衣服，個性很膽小，甚至會被自己影子嚇到" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k1c-QU-sno">
+                                <rect key="frame" x="16" y="402" width="343" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN-Bold" family="Malayalam Sangam MN" pointSize="20"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.53247937820000002" green="0.31175020320000002" blue="0.0038782325480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pooh_and_Piglet_hug" translatesAutoresizingMaskIntoConstraints="NO" id="g1c-Kp-z43">
+                                <rect key="frame" x="67" y="126" width="240" height="232"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97767180200000003" green="0.92650085689999995" blue="0.95604878660000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="2kF-ye-8Fv"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Piglet " id="1Wi-xU-At8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ang-bz-5Gd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2068" y="-1463.1184407796104"/>
+        </scene>
+        <!--3-->
+        <scene sceneID="qaK-mY-srg">
+            <objects>
+                <viewController id="KVu-z2-Sle" userLabel="3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rhe-w3-sQT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介  非常喜歡活崩亂跳，結交朋友的跳跳虎，引自己美麗的斑紋驕傲" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hMX-jM-BDR">
+                                <rect key="frame" x="16" y="450" width="343" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN-Bold" family="Malayalam Sangam MN" pointSize="20"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.53247937820000002" green="0.31175020320000002" blue="0.0038782325480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tigger pooh hug" translatesAutoresizingMaskIntoConstraints="NO" id="auh-d3-Als">
+                                <rect key="frame" x="16" y="139" width="330" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="oiR-qG-8uF"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tigger" id="lqH-8o-gTm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LLj-OD-gqO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2068" y="-797.45127436281871"/>
+        </scene>
+        <!--2-->
+        <scene sceneID="skL-Zo-jd1">
+            <objects>
+                <viewController id="gDp-mg-cgy" userLabel="2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZQg-mm-77I">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Aug58" translatesAutoresizingMaskIntoConstraints="NO" id="Q79-lm-eo5">
+                                <rect key="frame" x="28" y="91" width="318" height="296"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介  純真可愛，雖然有點笨拙，有點沒大腦，但心地善良，體型圓滾滾的維尼最愛吃大口大口的蜂蜜，是百畝森林的開心果，總喜歡穿件紅色T-shirt" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3dL-Fh-bzb">
+                                <rect key="frame" x="16" y="415" width="343" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN-Bold" family="Malayalam Sangam MN" pointSize="20"/>
+                                <color key="textColor" red="0.53247937820000002" green="0.31175020320000002" blue="0.0038782325480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.53247937820000002" green="0.31175020320000002" blue="0.0038782325480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99942404029999998" green="0.99603685809999998" blue="0.62426016770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="EDk-fm-gB0"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Winnie the Pooh" id="dVX-S1-U1t"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CyA-b6-WFf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2068" y="-124.58770614692655"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kN6-Pa-rF9">
+            <objects>
+                <viewController id="Yan-Gq-v1i" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Xk-lA-qQh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="作者與羅賓" translatesAutoresizingMaskIntoConstraints="NO" id="SNi-6W-h7b">
+                                <rect key="frame" x="16" y="369" width="343" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A. A. Milne與他的兒子Christopher Robin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpm-Jo-v65">
+                                <rect key="frame" x="145" y="347" width="214" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.99942404029999998" green="0.99603685809999998" blue="0.62426016770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZnD-Uu-uS6">
+                                <rect key="frame" x="13" y="68" width="349" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">小熊維尼中的角色都是Christopher Robin的絨毛玩具，唯有貓頭鷹和兔子是A. A. Milne另外構思的。而故事中的百畝森林就是以東薩塞克斯郡的亞士頓森林作為藍圖。小熊維尼的冒險之旅被知名插畫家Ernest H. Shepard繪畫成冊，被稱為「古典維尼」。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bj2-l9-I4z">
+                                <rect key="frame" x="13" y="201" width="349" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">因為小熊維尼而家喻戶曉的A. A. Milne晚年並不愉快。他不喜歡自己從此與兒童文學畫上等號，畢竟在他的文學生涯中，也創作過不少佳作。於是他再次著手於一般的文學作品，但都沒有以往的成功。深受病痛的折磨，A. A. Milne在1956年逝世於人間，但小熊維尼卻沒有因此被人遺忘。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="zBy-7U-On4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AzL-vV-22T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2136.8000000000002" y="644.52773613193403"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VgN-VY-2xC">
+            <objects>
+                <viewController id="KbY-VB-teu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FBo-1F-5u5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="“How lucky I am to have something that makes saying goodbye so hard.”  我是多麼的幸運能擁有一件令人難以割捨的東西。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIr-xT-uKk">
+                                <rect key="frame" x="19" y="238" width="337" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
+                                <color key="textColor" red="0.30076327549999998" green="0.38860405570000001" blue="0.57487309639999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.83227363080000005" blue="0.67179272720000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="XqN-g7-vhC"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qc6-jy-5TU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2137" y="2076"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="m2j-7d-VUR">
+            <objects>
+                <viewController id="Liy-cc-HVH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7mw-5s-t37">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hy8-ye-4ak">
+                                <rect key="frame" x="19" y="188" width="337" height="290"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">“If there ever comes a day when we can’t be together
+keep me in your heart. I’ll stay there forever.”
+
+如果有一天我們不能繼續在一起，請把我放在心上，我會在那邊待一輩子。</string>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
+                                <color key="textColor" red="0.30076327549999998" green="0.38860405570000001" blue="0.57487309639999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.83227363080000005" blue="0.67179272720000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="pGq-gS-UH5"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H62-yC-nMO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2136.8000000000002" y="2740.4797601199402"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dFG-Lo-fgn">
+            <objects>
+                <viewController id="TB4-hq-Qun" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kNB-vO-H4e">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVW-DY-kZT">
+                                <rect key="frame" x="19" y="217" width="337" height="233"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">“If you live to be a hundred, I want to live to be a hundred minus one day so I never have to live without you.”
+
+如果你可以活到一百歲，那我要活到比一百歲再少一天，這樣的話我的生命中將永遠有你的陪伴。</string>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
+                                <color key="textColor" red="0.30076327549999998" green="0.38860405570000001" blue="0.57487309639999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.83227363080000005" blue="0.67179272720000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Mxm-Nb-nAU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ol1-tW-Nke" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2136.8000000000002" y="3392.6536731634187"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ABQ-iX-tCH">
+            <objects>
+                <viewController id="6F3-7f-VxG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LYh-mu-8Yu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1vO-yX-gre">
+                                <rect key="frame" x="19" y="237" width="337" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">“Love is taking a few steps backward maybe even more… to give way to the happiness of the person you love.”
+
+愛是退讓一步或者更多，只為了讓你所愛的人得到幸福。</string>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
+                                <color key="textColor" red="0.30076327549999998" green="0.38860405570000001" blue="0.57487309639999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.83227363080000005" blue="0.67179272720000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="ZtK-hK-mdM"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MbJ-q5-3uX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2136.8000000000002" y="4039.4302848575717"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IvS-es-lFu">
+            <objects>
+                <viewController id="tJk-ID-ok3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2UR-Tr-jGl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l9S-pY-Y9m">
+                                <rect key="frame" x="19" y="237" width="337" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">“Sometimes the smallest things take the most room in your heart.”
+
+有時候最小的事情卻會佔據你整個心思。</string>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
+                                <color key="textColor" red="0.30076327549999998" green="0.38860405570000001" blue="0.57487309639999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.83227363080000005" blue="0.67179272720000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="gGS-Lr-tR5"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cg6-Qx-CJh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2137" y="4707"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="J87-Ew-KvN">
+            <objects>
+                <viewController id="394-ef-auA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JyM-nF-hRP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENu-Lc-5RB">
+                                <rect key="frame" x="19" y="237" width="337" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">“Some people care too much. I think its called love.”
+
+有些人總是太過在乎，但我認為那就是所謂的愛。</string>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
+                                <color key="textColor" red="0.30076327549999998" green="0.38860405570000001" blue="0.57487309639999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.83227363080000005" blue="0.67179272720000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Pue-vR-oYv"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OMh-wh-LJn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2137" y="5376"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yAt-4J-FcN">
+            <objects>
+                <viewController id="maN-Xz-jes" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tGH-Rh-59U">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ppn-4V-t19">
+                                <rect key="frame" x="19" y="237" width="337" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">“How do you spell "love" ？”
+“You don't spell it...you feel it.”  「嘿，你知道『愛』這個字怎麼拚嗎？」
+「你不需要拼湊愛，只要感覺它。」</string>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
+                                <color key="textColor" red="0.30076327549999998" green="0.38860405570000001" blue="0.57487309639999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.83227363080000005" blue="0.67179272720000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="ecv-jD-AQ2"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c3m-Sl-NyW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2137" y="6045"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PcV-6H-3q8">
+            <objects>
+                <viewController id="5li-5m-PGs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="A3G-8N-jv3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUu-cd-Z3x">
+                                <rect key="frame" x="19" y="237" width="337" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">”You cant stay in your corner of the Forest waiting for others to come to you.
+You have to go to them sometimes.“
+
+你不能總是待在你熟悉的角落，有時候你必須主動的跨出去。</string>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
+                                <color key="textColor" red="0.30076327549999998" green="0.38860405570000001" blue="0.57487309639999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.83227363080000005" blue="0.67179272720000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="aZh-g8-Lwa"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eS6-wh-fVT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2137" y="6707"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="A day without a friend is like a pot without a single drop of honey left inside." width="700" height="511"/>
+        <image name="Aug58" width="500" height="496"/>
+        <image name="Christopher Robin" width="600" height="600"/>
+        <image name="Christopher Robin Milne與他的熊娃娃" width="768" height="539"/>
+        <image name="Christopher-Robin去背" width="600" height="600"/>
+        <image name="Eeyore去背" width="900" height="922"/>
+        <image name="How lucky I am to have something that makes saying goodbye so hard." width="736" height="1104"/>
+        <image name="If there ever comes a day when we can’t be together" width="576" height="745"/>
+        <image name="If you live to be a hundred, I want to live to be a hundred minus one day so I never have to live without you." width="403" height="403"/>
+        <image name="Kanga" width="573" height="578"/>
+        <image name="Love is taking a few steps backward maybe even more… to give way to the happiness of the person you love." width="600" height="720"/>
+        <image name="Pooh-Rabbit去背" width="1920" height="1200"/>
+        <image name="Pooh_and_Piglet_hug" width="296" height="398"/>
+        <image name="Rabbit" width="264" height="323"/>
+        <image name="Some people care too much. I think its called love." width="1350" height="800"/>
+        <image name="Sometimes the smallest things take the most room in your heart." width="550" height="600"/>
+        <image name="You cant stay in your corner of the Forest waiting for others to come to you." width="300" height="300"/>
+        <image name="eeyore-butterfly2" width="450" height="479"/>
+        <image name="gallery-1499328096-gettyimages-84037644" width="980" height="705"/>
+        <image name="how to spell love" width="580" height="400"/>
+        <image name="kanga-roo3" width="500" height="385"/>
+        <image name="owl-book" width="375" height="633"/>
+        <image name="owl-notes去背" width="600" height="473"/>
+        <image name="piglet" width="500" height="500"/>
+        <image name="piglet_去背" width="180" height="180"/>
+        <image name="pooh" width="364" height="600"/>
+        <image name="roo2" width="343" height="370"/>
+        <image name="tigger" width="254" height="300"/>
+        <image name="tigger pooh hug" width="700" height="475"/>
+        <image name="tigger_roo_puddles去背" width="550" height="627"/>
+        <image name="作者與太太" width="768" height="538"/>
+        <image name="作者與羅賓" width="768" height="596"/>
+        <image name="待機畫面" width="1664" height="1020"/>
+        <image name="羅賓與維尼" width="656" height="500"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="hgs-zL-Vmt"/>
+        <segue reference="tP5-MZ-yFj"/>
+        <segue reference="CpO-pv-j49"/>
+        <segue reference="S9W-zu-6Dq"/>
+        <segue reference="lKt-TR-aer"/>
+        <segue reference="Vdu-lB-hQO"/>
+        <segue reference="em9-Hk-MIj"/>
+        <segue reference="tBH-cu-BoI"/>
+        <segue reference="eww-mT-Q8c"/>
+    </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
 </document>
